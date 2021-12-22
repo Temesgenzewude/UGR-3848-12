@@ -1,0 +1,53 @@
+.project-main {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(#04030f, #5f1a37, #776885, #73c2be, #73eedc);
+}
+
+.project-main h1 {
+    margin: 20px 20%;
+    background-color: rgba(222, 220, 238, 0.6);
+    color: rgb(0, 12, 6);
+    text-align: center;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+th,
+td {
+    margin: 1px 0px;
+    text-align: center;
+    padding: 8px;
+    min-width: 300px;
+    border: 1px solid #eee;
+}
+
+.table-container table th {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+}
+
+.table-container caption {
+    color: rgba(7, 8, 1, 1);
+    background-color: gray;
+}
+
+.table-container table tbody p {
+    color: white;
+    background-color: rgb(0, 12, 6);
+    padding: 10%;
+}
+
+.table-container table tbody img {
+    height: 300px;
+}
+
+#footer {
+    margin-bottom: 0px;
+}
